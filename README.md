@@ -5,9 +5,10 @@ These are techniques that I have found to work during Wi-Fi assessments (discove
 # Hardware:
 * Need Atheros chipset in the wireless adapter
 	* [Check wireless card](https://www.aircrack-ng.org/doku.php?id=compatible_cards)
-* TP-Link TL-WN722N
-	* has to be earlier than version 2 due to TP-Link updating the chips on the adapters.
-* Alfa AWUS051NH
+* Wireless cards that I have used and work:
+	* TP-Link TL-WN722N
+		* has to be earlier than version 2 due to TP-Link updating the chips on the adapters.
+	* Alfa AWUS051NH
 
 # Configuration: System Setup with Hardware
 * Might need to kill Network Manager
