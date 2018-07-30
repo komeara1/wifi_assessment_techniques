@@ -94,4 +94,4 @@ aircrack-ng -w /usr/share/wordlists/rockyou.txt wpa_capture.pcap
 
 # Wireshark Tips
 * Don't forget to add key information to Wireshark
-* From Menu options: Edit->Preferences->IEEE 802.11
+	* From Menu options: Edit->Preferences->IEEE 802.11
