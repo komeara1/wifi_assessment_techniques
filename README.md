@@ -64,12 +64,12 @@ airodump-ng -c <Channel> --bssid <AP_MAC> -w <File_Prefix> <interface>
 # WPA-PSK Attack
 * Attacking WPA-PSK - Goal: acquire PSK (pre-shared key)
 - Need to identify:
-* Name of the wireless network (ESSID)
-* MAC address of the AP (BSSID)
-* Channel that the AP
-* Victim MAC
-* need to capture 4 way handshake
-* Then crack - see below
+	* Name of the wireless network (ESSID)
+	* MAC address of the AP (BSSID)
+	* Channel that the AP
+	* Victim MAC
+	* need to capture 4 way handshake
+	* Then crack - see below
 
 # Deauth Attack
 * In one terminal collect
