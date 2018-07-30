@@ -1,6 +1,6 @@
 # Wi-Fi Assessment Techniques
 
-These are techniques that I have found to work during WiFi assessments (discovery, collection, attack, and crack). This isn't an "end all, be all" list.</br>
+These are techniques that I have found to work during Wi-Fi assessments (discovery, collection, attack, and crack). This isn't an "end all, be all" list.</br>
 
 # Hardware:
 * Need Atheros chipset in the wireless adapter
@@ -39,7 +39,7 @@ iwlist wlan0 scanning
 ```
 airmon-ng start wlan0
 ```
-* Watch aircrack-ng's output of errors. Might need to run:
+* Watch aircrack-ng's output of errors. Might need to run the following to kill specific process that hinder aircrack-ng.
 ```
 airmon-ng check kill
 ```
