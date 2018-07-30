@@ -1,18 +1,15 @@
-# Wi-Fi Collection and Attack Techniques
+# Wi-Fi Assessment Techniques
 
-This are techniques that I have found to work during WiFi assessments. This isn't an "end all, be all" list.</br>
-
-* Identification/Discovery
-* Collection
-* Attack
+These are techniques that I have found to work during WiFi assessments (discovery, collection, attack, and crack). This isn't an "end all, be all" list.</br>
 
 # Hardware:
-- key is having an Atheros chipset in the wireless adapter
-- TP-Link TL-WN722N - has to be earlier than version 2
-- Alfa AWUS051NH
+* Need Atheros chipset in the wireless adapter
+	* [Check wireless card](https://www.aircrack-ng.org/doku.php?id=compatible_cards)
+* TP-Link TL-WN722N
+	* has to be earlier than version 2 due to TP-Link updating the chips on the adapters.
+* Alfa AWUS051NH
 
-# Configuration
-* System setup
+# Configuration: System Setup with Hardware
 * Might need to kill Network Manager
 ```
 /etc/init.d/network-manager status
@@ -90,8 +87,8 @@ aireplay-ng --deauth 25 -a <AP_MAC> -c <VICTIM_MAC> <INTERFACE>
 ```
 aircrack-ng -w /usr/share/wordlists/rockyou.txt wpa_capture.pcap
 ```
-* I've heard hashcat is more affective but I've have not tried this method.
+* I've heard hashcat is more effective but I've have not tried this method.
 
 # Wireshark Tips
-* Don't forget to add key information to Wireshark
+* Don't forget to add encryption key information to Wireshark
 	* From Menu options: Edit->Preferences->IEEE 802.11
