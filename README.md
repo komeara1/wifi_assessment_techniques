@@ -36,13 +36,13 @@ iwlist wlan0 scanning
 ```
 
 # Monitor Mode
-* This sets wlan0 into Monitor mode. This sets a new interface, typically, mon0 or a variation of ie. wlanmon0
-```
-airmon-ng start wlan0
-```
 * Watch aircrack-ng's output of errors. Might need to run the following to kill specific process that hinder aircrack-ng.
 ```
 airmon-ng check kill
+```
+* This sets wlan0 into Monitor mode. This sets a new interface, typically, mon0 or a variation of ie. wlanmon0
+```
+airmon-ng start wlan0
 ```
 * Monitor for traffic on Monitor interface (i.e. mon0)
 ```
