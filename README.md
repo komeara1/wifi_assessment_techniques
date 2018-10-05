@@ -36,7 +36,7 @@ iwlist wlan0 scanning
 ```
 
 # Monitor Mode
-* Watch aircrack-ng's output of errors. Might need to run the following to kill specific process that hinder aircrack-ng.
+* Kill specific process that hinder aircrack-ng.
 ```
 airmon-ng check kill
 ```
